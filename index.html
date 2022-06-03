@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<title>ICG WebGL &mdash; HW1</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<script src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css">
+<link href="style.css" rel="stylesheet">  
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/glMatrix-0.9.5.min.js"></script>
+<script type="text/javascript" src="js/webgl-utils.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/Light.js"></script>
+<script type="text/javascript" src="js/Model.js"></script>
+<script type="text/javascript" src="js/loadTexture.js"></script>
+<script type="text/javascript" src="js/loadShader.js"></script>
+<script type="text/javascript" src="js/renderer.js"></script>
+<script type="text/javascript" src="js/UI_handler.js"></script>
+
+</head>
+
+<body onload="webGLStart();">
+    <canvas id="ICG-canvas" ></canvas>
+    <div class="modelLayoutGroup" id="modelLayoutGroup"></div>
+    <br/>
+    <div class="lightLayoutGroup" id="lightLayoutGroup">
+        <div>
+                <label>Ambient Light: </label>
+                <input type="color" class="PropertyColorPicker" name="ambient" value=`${color_floatArray_to_hexStr(ambientLight)}` onchange='changeAmbientColor(this.value);'>
+        </div>
+    </div>
+ 
+</body>
+
+</html>

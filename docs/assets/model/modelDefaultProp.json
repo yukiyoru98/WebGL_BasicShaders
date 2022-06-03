@@ -1,0 +1,22 @@
+{
+    "Teapot":
+    {
+        "hasTexCoord": true,
+        "size" : [0.6, 0.6, 0.6],
+        "rotation" : [0, 0, 0]
+    },
+
+    "Car_road":
+    {
+        "hasTexCoord": false,
+        "size" : [15, 15, 15],
+        "rotation" : [270, 0, 0]
+    },
+
+    "Easter":
+    {
+        "hasTexCoord": false,
+        "size" : [8, 8, 8],
+        "rotation" : [270, 0, 0]
+    }
+}

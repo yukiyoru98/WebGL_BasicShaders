@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+canvas{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    width: 45vw; 
+    height: 50vh;
+}
+
+.PropertyTopLabel{
+    font-size: 1.1em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.PropertyColorLabel{
+    width: 90px;
+    display: inline-block;
+}
+
+.PropertySliderLabel{
+    width: 20px;
+    display: inline-block;
+}
+
+.PropertySlider{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.PropertyColorPicker{
+    padding: 0;
+    height: 20px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+.modelLayoutGroup{
+    width: 53vw;
+    float: right;
+}
+
+.modelProperties{
+    width: 28%;
+    display: inline-block;
+    border: solid 2px darkgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.lightLayoutGroup{
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px darkgrey;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.lightProperties{
+    width: 33%;
+    display: inline-block;
+    margin-top: 10px;
+
+}
