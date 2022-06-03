@@ -27,6 +27,7 @@ function degToRad(degrees) {
 }
 
 function loadTextResource(url) {
+    console.log("HHHH");
     var request = new XMLHttpRequest();
     request.open("GET", url, false);
     request.send(null);
