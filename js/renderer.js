@@ -211,7 +211,7 @@ function tick() {
 }
 
 const webGLStart = async () => {
-	const image = await loadImage('textures/wood.jpg');
+	const image = await loadImage('/textures/wood.jpg');
     console.log('image loaded');
 
     var canvas = document.getElementById("ICG-canvas");
