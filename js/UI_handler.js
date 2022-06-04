@@ -94,7 +94,6 @@ function changeAmbientColor(value){
 }
 
 function setMaterialShininess(slider, value){
-    console.log(value);
     var label = $(slider).next("span");
     label.html(value);
     var modelIndex = $(slider).closest(".modelProperties").data("modelindex");
