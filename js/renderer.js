@@ -21,7 +21,6 @@ function initGL(canvas) {
     try {
         gl = canvas.getContext("webgl2") || canvas.getContext("experimental-webgl");
         resizeCanvasToDisplaySize(gl);
-        console.log("HHHH");
         
     } 
     catch (e) {
